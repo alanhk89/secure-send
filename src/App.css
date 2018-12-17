@@ -7,26 +7,21 @@
   height: 40vmin;
 }
 
-.App-header {
-  background-color: #282c34;
+.Container {
+  background-color: #ebedf0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.SubmitForm{
+  width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-form {
+  padding: 12px !important;
 }
