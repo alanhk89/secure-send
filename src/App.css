@@ -19,7 +19,25 @@
 }
 
 .SubmitForm{
-  width: 50%;
+  width: 60%;
+}
+
+@media (max-width: 1024px) {
+  .SubmitForm {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .SubmitForm {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .SubmitForm {
+    width: 90%;
+  }
 }
 
 .ant-form {
